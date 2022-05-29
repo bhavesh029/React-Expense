@@ -1,8 +1,12 @@
-import react from "react";
+import NewExpense from "./components/NewExpense/NewExpense";
 import Expense from "./components/Expenses/Expense";
-
 function App() {
-  return <Expense />;
+  return (
+    <div>
+      <NewExpense />
+      <Expense />
+    </div>
+    )
 }
 
 export default App;
