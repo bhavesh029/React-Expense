@@ -31,6 +31,7 @@ function Expense() {
       date: new Date(2021, 5, 12),
     },
   ];
+  
       return (
         <div>
           <Card className="expenses">
